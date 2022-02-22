@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cairo;
+}
+header video{
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+header .overlay{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+header .blond{
+    padding-top: 40px;
+}
+header .head-text{
+    padding-top: 190px;
+}
+header .head-text h1{
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height:46px ;
+    color: #555555;
+}
+header .head-text p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #5d5d5d;
+}
+header .button-text a.btn{
+    background-color: #7936b2;
+    color: #ffffff;
+    margin-left: 15px;
+    padding: 22px 55px;
+}
+header .button-text a.btn:last-child{
+    background: transparent;
+    color:#7936b2 ;
+}
+header .product{
+    position: relative;
+    margin-bottom: 30px;
+}
+header .product .logo-image img{
+    position: absolute;
+    top: -50px;
+    right: -50px;
+
+}
+header .product .logo-image p{
+    position: absolute;
+    top: -25px;
+    right: 2px;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+}
+header .product .product-image img {
+    width: 100%;
+}
+header .product .logo-image span{
+    display: block;
+}
+
+section.features{
+    padding: 70px 0;
+    background-color: #ffffff;
+}
+section.prices{
+    background-color: rgb(247, 247, 247);
+}
+section.features .media-title{
+    padding-bottom: 45px;
+    position: relative;
+    line-height: 32px;
+    color: #555;
+}
+
+section.features .media-title::after{
+    content: "";
+    height: 2px;
+    width: 150px;
+    background-color: #743e9a;
+    position:absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+section.features .media-features .d-flex{
+    padding: 70px 0;
+    border-bottom: 3px solid #eeeeee;
+}
+
+section.features .media-features .d-flex:nth-child(even){
+    direction: ltr;
+}
+
+section.features .media-features .d-flex img{
+    margin: 0 80px;
+}
+
+section.features .media-features .d-flex h4{
+    font-size:36px ;
+    font-weight: bold;
+    color: #6a3093;
+    border-right: 2px solid #6a3093;
+    padding: 0 25px;
+    margin-bottom: 50px;
+    
+}
+
+section.features .media-features .d-flex:nth-child(even) h4 {
+    border-right: 0;
+    border-left: 2px solid #7936b2;
+}
+
+section.features .media-features .d-flex p{
+    font-size:18px ;
+    line-height: 32px;
+    color:#555555 ;
+
+}
+
+section.prices{
+    padding: 50px 0 60px ;
+}
+
+section.prices .prices-title h2{
+    color:#555555 ;
+    font-size: 30px;
+}
+
+section.prices .product-info span.title{
+    color: #a044ff;
+    font-size: 18px;
+}
+
+section.prices .product-info h5 {
+    font-size: 48px;
+    margin: 30px auto;
+}
+
+section.prices .product-info span{
+    font-size: 15px;
+    vertical-align: bottom;
+}
+
+section.prices .product-info {
+    border: 2px solid #ededed;
+    padding: 15px 0;
+    background-color: #fff;
+    margin-top: 100px;
+    color: #acacac;
+}
+
+section.prices .product-info ul li{
+    list-style: none;
+    margin: 30px auto;
+    font-size: 15px;
+}
+
+section.prices .product-info ul {
+    padding: 0;
+}
+
+section.prices .product-info a.btn:hover{
+    background-color: #7233a2;
+    color: #fff;
+    
+}
+
+section.prices .product-info a.btn{
+    color: #7233a2;
+    background-color: #fff;
+    border: 2px solid #7233a2;
+    border-radius: 0;
+    padding: 10px 40px;
+    transition:0.5s all ease;
+}
+
+section.prices .col-md-6:nth-child(3) .product-info {
+    padding-top: 60px;
+    margin-top: 55px;
+    
+}
+
+section.prices .col-md-6:nth-child(3) .product-info a.btn{
+    color: #fff;
+    background-color: #7233a2;
+}
+
+section.faq{
+    padding: 55px 0px;
+    background-color: #fff;
+}
+
+section.faq .questions-title h2 {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 55px;
+}
+
+
+section.faq .accordion .accordion-item {
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+}
+
+section.faq .accordion .accordion-item button {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+}
+
+section.faq .accordion .accordion-item .accordion-body {
+    font-size:15px ;
+    color: #c9c9c9;
+    line-height: 24px;
+}
+
+section.faq .accordion .accordion-item .accordion-button:not(.collapsed){
+    background-color: #fff;
+}
+
+section.faq .accordion .accordion-item .accordion-button:focus{
+    border: 0;
+    box-shadow: 0 0 0;
+    
+}
+
+section.video {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+section.video video {
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+section.video .over-layout{
+    background-color: rgba(130, 77, 178, 0.9);
+    min-height: 100%;
+    position: absolute;
+    inset: 0;
+}
+
+section.video .over-layout button{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 30px;
+}
+
+section.video .over-layout button i{
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    line-height: 90px;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 46px;
+}
+
+section.contact{
+    padding:60px 0 40px;
+    background-color: #131313;
+}
+
+section.contact .container .row .col-md-6 h4 {
+    font-size: 18px;
+    color:#758594 ;
+    line-height: 50px ;
+}
+section.contact .container .row .col-md-6 form input,
+section.contact .container .row .col-md-6 form textarea{
+    display: block;
+    margin-bottom: 10px;
+    text-align: right;
+    background-color: #242424;
+    color: #aeadad;
+    border:none;
+    line-height: 35px;
+    font-size: 18px;
+    width: 90%;
+}
+
+section.contact .container .row .col-md-6 form button {
+    background-color:#a044ff ;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 3px;
+}
+
+section.contact .container .row .col-md-6 form button i {
+    margin-right: 15px;
+}
+
+section.contact .container .row .col-md-6 .invalid-feedback {
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+section.contact .container .row .col-md-6 .d-flex{
+    margin-bottom: 25px;
+    
+}
+section.contact .container .row .col-md-6 .d-flex h5 {
+    margin-bottom: 15px;
+    color: #aeadad;
+    font-size: 18px;
+}
+
+section.contact .container .row .col-md-6 .blog .blog-link {
+    text-decoration: none;
+}
+
+section.contact .container .row .col-md-6 .d-flex p {
+    color: #737373;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer {
+   background-color: #1d1d1d;
+   padding: 25px 0;
+}
+
+footer .list-inline .list-inline-item a {
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   display: block;
+   color: #1d1d1d;
+   background-color: #758594;
+   text-align: center;
+   border-radius: 50%;
+   transition: 0.5s all ease;
+}
+
+footer .list-inline .list-inline-item a:hover{
+    background-color: #1479ec;
+}
+
+footer .copy-right p {
+    font-size: 15px;
+    color: #919191;
+    text-align: left;
+    margin-top: 10px;
+}
+
+@media (max-width : 992px ) {
+    header .head-text {
+        padding-top: 80px;
+    }
+}
+
+@media (max-width :768px ){
+    header .overlay .product {
+        margin-top: 100px;
+    }
+    header .overlay .product .logo-image img {
+        right: 48%;
+        transform: translateX(50%);
+    }
+    header .overlay .product .logo-image p {
+        right: 48%;
+        transform: translateX(50%);
+    }
+    section.features .media-features .d-flex{
+        flex-flow: column;
+        text-align: center;
+    }
+    section.features .media-features .d-flex img {
+        margin: 0 auto 50px;
+    }
+    section.features .media-features .d-flex h4 {
+        border: none !important;
+    }
+    section.contact h4 {
+        margin-top: 25px;
+    }
+
+}
+@media (max-width :577px ) {
+    footer {
+        text-align: center;
+    }
+    footer .copy-right p {
+        text-align: center;
+    }
+}

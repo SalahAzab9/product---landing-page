@@ -3,55 +3,67 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: Cairo;
 }
+
 header video{
     min-width: 100%;
     min-height: 100%;
     position: fixed;
     z-index: -1;
 }
+
 header .overlay{
     background-color: rgba(255, 255, 255, 0.7);
 }
+
 header .blond{
     padding-top: 40px;
 }
+
 header .head-text{
     padding-top: 190px;
 }
+
 header .head-text h1{
     margin-bottom: 30px;
     font-size: 36px;
     line-height:46px ;
     color: #555555;
 }
+
 header .head-text p{
     font-size: 18px;
     line-height: 32px;
     color: #5d5d5d;
 }
+
 header .button-text a.btn{
     background-color: #7936b2;
     color: #ffffff;
     margin-left: 15px;
     padding: 22px 55px;
 }
+
 header .button-text a.btn:last-child{
     background: transparent;
     color:#7936b2 ;
 }
+
 header .product{
     position: relative;
     margin-bottom: 30px;
 }
+
 header .product .logo-image img{
     position: absolute;
     top: -50px;
     right: -50px;
 
 }
+
 header .product .logo-image p{
     position: absolute;
     top: -25px;
@@ -60,9 +72,11 @@ header .product .logo-image p{
     color: #ffffff;
     text-align: center;
 }
+
 header .product .product-image img {
     width: 100%;
 }
+
 header .product .logo-image span{
     display: block;
 }
@@ -71,9 +85,11 @@ section.features{
     padding: 70px 0;
     background-color: #ffffff;
 }
+
 section.prices{
     background-color: rgb(247, 247, 247);
 }
+
 section.features .media-title{
     padding-bottom: 45px;
     position: relative;

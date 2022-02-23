@@ -2,6 +2,7 @@ function playvid(){
     var video = document.getElementById("video");
 
     if(video.paused){
+      // هنا المقصود عند الضغط
         video.play();
     } else {
         video.pause();
